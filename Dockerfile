@@ -18,6 +18,6 @@ RUN npm install -g @angular/cli
 COPY . .
 
 
-docker build -t testimage .
+CMD docker build -t testimage .
 # start app
 CMD ng serve --host 0.0.0.0
