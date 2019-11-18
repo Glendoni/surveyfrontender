@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -78,6 +78,7 @@
     "ngx-echarts": "^4.0.0",
     "ngx-perfect-scrollbar": "^6.3.1",
     "node-sass": "^4.10.0",
+    "nodemon": "^1.19.4",
     "nvd3": "^1.8.6",
     "path": "^0.12.7",
     "peity": "^3.3.0",
